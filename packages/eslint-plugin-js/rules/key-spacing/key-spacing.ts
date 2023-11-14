@@ -465,7 +465,7 @@ export default createRule({
         let fix: TSESLint.ReportFixFunction
 
         if (isExtra) {
-          let range: [number, number]
+          let range: TSESTree.Range
 
           // Remove whitespace
           if (isKeySide)
